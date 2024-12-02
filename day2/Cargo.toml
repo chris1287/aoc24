@@ -6,3 +6,10 @@ edition = "2021"
 [dependencies]
 nom.workspace = true
 
+[dev-dependencies]
+divan.workspace = true
+
+[[bench]]
+name = "day2-bench"
+path = "bench/bench.rs"
+harness = false
