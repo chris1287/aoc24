@@ -1,0 +1,16 @@
+[package]
+name = "day6"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nom.workspace = true
+grid.workspace = true
+
+[dev-dependencies]
+divan.workspace = true
+
+[[bench]]
+name = "day6-bench"
+path = "bench/bench.rs"
+harness = false
