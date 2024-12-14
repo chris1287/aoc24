@@ -1,0 +1,18 @@
+[package]
+name = "day14"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nom.workspace = true
+glam.workspace = true
+rayon.workspace = true
+itertools.workspace = true
+
+[dev-dependencies]
+divan.workspace = true
+
+[[bench]]
+name = "day14-bench"
+path = "bench/bench.rs"
+harness = false
