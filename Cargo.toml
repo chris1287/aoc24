@@ -10,4 +10,5 @@ divan = "0.1"
 grid = "0.15"
 glam = "0.29"
 nom_locate = "4.2"
+pathfinding = "4.12"
 
