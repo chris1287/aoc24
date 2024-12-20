@@ -1,0 +1,16 @@
+[package]
+name = "day17"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nom.workspace = true
+itertools.workspace = true
+
+[dev-dependencies]
+divan.workspace = true
+
+[[bench]]
+name = "day17-bench"
+path = "bench/bench.rs"
+harness = false
