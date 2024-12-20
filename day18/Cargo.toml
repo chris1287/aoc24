@@ -1,0 +1,17 @@
+[package]
+name = "day18"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nom.workspace = true
+glam.workspace = true
+pathfinding.workspace = true
+
+[dev-dependencies]
+divan.workspace = true
+
+[[bench]]
+name = "day18-bench"
+path = "bench/bench.rs"
+harness = false
